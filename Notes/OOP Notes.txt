@@ -1,0 +1,25 @@
+OOP
+
+
+Way to organize your code.
+
+*More than two functions - should organize into a class
+
+Object is entire window
+
+using classes is oop
+
+
+
+
+
+
+
+
+
+
+python::::
+int and float are numbers
+
+
+

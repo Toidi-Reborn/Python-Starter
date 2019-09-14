@@ -1,0 +1,55 @@
+Here are some more examples of slicing lists if you're still not sure how slicing works.
+
+Let's suppose we have the following list in our Python shell:
+
+>>> days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] 
+
+Here is how to access the first three items (from first to third):
+
+>>> days[0:3] 
+
+Output:
+
+['Mon', 'Tue', 'Wed'] 
+
+Access items from first to fourth:
+
+>>> days[0:4] 
+
+['Mon', 'Tue', 'Wed', 'Thu'] 
+
+Exactly the same as above
+
+>>> days[:4] 
+
+['Mon', 'Tue', 'Wed', 'Thu'] 
+
+No boundaries
+
+>>> days[:] 
+
+['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'] 
+
+From first to second-to-last
+
+>>> days[0:-1] 
+
+['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] 
+
+From first to third-to-last
+
+>>> days[:-2] 
+
+['Mon', 'Tue', 'Wed', 'Thu', 'Fri'] 
+
+From third-to-last to second-to-last
+
+>>> days[-3:-1] 
+
+['Fri', 'Sat'] 
+
+From third-to-last to last
+
+>>> days[-3:] 
+
+['Fri', 'Sat', 'Sun'] 

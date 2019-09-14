@@ -1,0 +1,44 @@
+   More operations with dictionaries
+Here are more operations you can do with dictionaries
+
+Let's say we have the following dictionary:
+
+>>> person97 = {"name":"Jack", "surname":"Smith", "age":"29"} 
+
+Removing pair "name":"Jack"
+
+>>> person97.pop("name") 
+
+'Jack' 
+
+>>> person97 
+
+{'surname': 'Smith', 'age': '29'} 
+
+Adding new pair "name":"Jack"
+
+>>> person97["name"] = "Jack" 
+
+>>> person97 
+
+{'surname': 'Smith', 'age': '29', 'name': 'Jack'} 
+
+Changing an existing value
+
+>>> person97["age"] = 30 
+
+>>> person97 
+
+{'surname': 'Smith', 'age': 30, 'name': 'Jack'} 
+
+Mapping two lists to a dictionary:
+
+>>> keys = ["a", "b", "c"] 
+
+>>> values = [1, 2, 3] 
+
+>>> mydict = dict(zip(keys, values)) 
+
+>>> mydict 
+
+{'a': 1, 'b': 2, 'c': 3}
